@@ -23,7 +23,7 @@ Musk's political activities, views, and statements have made him a polarizing fi
     summary_template = """
     given the information {information} about a person I want you to create:
     1. A short summary
-    2. two interesting facts about them
+    2. top two interesting facts about them 
     """
 
     summary_prompt_template = PromptTemplate(
